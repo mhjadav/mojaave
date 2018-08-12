@@ -215,7 +215,8 @@ export default () => (
             </h5>
             <h5 className="display-6">Or Leave a message below </h5>
           </div>
-            <form id="contact-form"  method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+            <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+            <input type="hidden" name="bot-field" />
               <input id="username" name="emailto" type="hidden" value="mj@mojaave.com"/>
               <div className="form-group">
                 <input type="email" className="form-control" id="txt-email" name="email" aria-describedby="emailHelp" placeholder="Enter email" required/>
