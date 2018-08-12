@@ -41,10 +41,10 @@ export default () => (
                 <a className="nav-link" href="https://mojaave.com">Home <span className="sr-only">(current)</span></a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#projects">Projects</a>
+                <a className="nav-link" href="#about">About</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#about">About</a>
+                <a className="nav-link" href="#projects">Projects</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#contact">Contact</a>
@@ -206,7 +206,7 @@ export default () => (
         <div className="col-md-6 col-xs-11">
           <div className="col-xs-12 about-text">
             <h5 className="display-6">
-              <span className="d-none d-sm-none">Feel free to </span>
+              <span className="d-none">Feel free to </span>
               <span>Connect with me via - </span>
               <a  style={{marginLeft: "5px"}} title="Github" href="https://github.com/mhjadav/gatsby-starter-bootstrap-cv" className="card-link text-black"><i className="fa fa-github" /></a>
               <a title="Twitter" href="https://twitter.com/mhjadav" className="card-link text-black"><i className="fa fa-twitter" /></a>
@@ -215,7 +215,7 @@ export default () => (
             </h5>
             <h5 className="display-6">Or Leave a message below </h5>
           </div>
-            <form id="contact-form"  method="POST" netlify="true">
+            <form id="contact-form"  method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
               <input id="username" name="emailto" type="hidden" value="mj@mojaave.com"/>
               <div className="form-group">
                 <input type="email" className="form-control" id="txt-email" name="email" aria-describedby="emailHelp" placeholder="Enter email" required/>
