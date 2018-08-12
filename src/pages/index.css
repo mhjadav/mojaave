@@ -1,7 +1,17 @@
+@font-face {
+  font-family: andika-basic;
+  src: url(../static/fonts/AndikaNewBasic-R.ttf);
+}
+*{
+  font-family: andika-basic;
+}
+html{
+  scroll-behavior: smooth;
+  overscroll-behavior-y: initial;
+}
 body{
   color: #000!important;
   background-color: white;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
   background: white;
 }
 
@@ -10,6 +20,9 @@ body{
   padding: 0;
   opacity: 1;
   color: white;
+  animation: fadein 1s;
+  -moz-animation: fadein 1s; 
+  -webkit-animation: fadein 1s; 
 }
 
 .jumbotron{
@@ -23,21 +36,33 @@ body{
 #about .jumbotron{
   background:white !important;
   color:black;
-  padding-top: 100px;
+  padding-top: 200px;
   padding-bottom: 200px;
 }
 
-#project .jumbotron{
+#projects .jumbotron{
   background:	#28BB9F !important;
   margin-bottom: -20px;
+  padding-bottom: 125px;
 }
-#project .card-title{
+#contact .jumbotron{
+  background: white !important;
+  margin-bottom: -20px;
+  padding-bottom: 50px;
+  color: black;
+}
+#contact .section-title {
+  margin-top: -108px;
+  background: #f46540;
+  color: #fff;
+}
+#projects .card-title{
   color: #ffc107;
 }
-#project .card-text{
+#projects .card-text{
   color:#fff
 }
-#project .card{
+#projects .card{
   background:#2f2c2c;
 }
 
@@ -82,6 +107,16 @@ body{
   text-align: center;
   padding: 8%;
 }
+#contact .about-text{
+  text-align: left;
+  padding: 2% 0;
+}
+.about-text .card-text{
+  animation-name: card-text-animation;
+  animation-duration: 2.205s;
+  animation-delay: 0.37s;
+  animation-fill-mode: forwards;
+}
 .about .row {
   transform: skewY(5deg);
   transform-origin: top right;
@@ -91,8 +126,34 @@ body{
   transition: transform 1s ease-in-out;
   
 }
+.card-text a{
+  text-decoration: underline;
+  margin-left: 5px;
+  cursor: pointer;
+  color: black;
+}
 .text-black:hover{
   transform: rotateY(20deg);
+}
+.section-title{
+  margin-top: -108px;
+  text-align: center;
+  padding: 2px;
+  background: #f46540;
+}
+#about .section-title{
+  background:none;
+}
+.form-control{
+  border: 0;
+  border-bottom: 1px solid lightgrey;
+  border-radius: 0;
+}
+.form-control button{
+  padding: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+
 }
 @media (min-width: 768px) {
   .photo{
@@ -101,16 +162,18 @@ body{
   .card{
     margin-top: 35px;
   }
-  .container-fluid{
-  }
 }
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .about{
     padding-top: 35px;
     padding-left: 0;
     padding-right: 0;
   }
-  #project .card{
+  #projects .card{
+    margin-bottom: 20px;
+  }
+  .section-title{
+    margin-top: -65px;
     margin-bottom: 20px;
   }
 }
@@ -430,4 +493,58 @@ body{
 .other__link {
   font-size: 1.3rem;
   margin: 0 1rem;
+}
+
+
+/* Text Animation */
+@-webkit-keyframes card-text-animation {
+  from {
+    margin-top: -30px;
+  }
+  to {
+    margin-top: 0px;
+  }
+}
+
+@keyframes card-text-animation {
+  from {
+    margin-top: -30px;
+  }
+  to {
+    margin-top: 0px;
+  }
+}
+
+@-moz-keyframes card-text-animation {
+  from {
+    margin-top: -30px;
+  }
+  to {
+    margin-top: 0px;
+  }
+}
+
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
 }

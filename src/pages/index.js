@@ -41,10 +41,13 @@ export default () => (
                 <a className="nav-link" href="https://mojaave.com">Home <span className="sr-only">(current)</span></a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#project">Projects</a>
+                <a className="nav-link" href="#projects">Projects</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#about">About</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -90,23 +93,31 @@ export default () => (
   <section id="about">
     <div className="jumbotron jumbotron-fluid">
       <div className="container">
-        <h1 className="display-5">About Me</h1>
+        <div className="section-title">
+          <h1 className="display-5">About Me</h1>
+        </div>
         <hr />
         <p className="lead card-text text-black">
-          Since last 7 years, I have been working as Full stack developer on various projects, which includes Cleartrip.com (Hotels And Flight Booking Platform), Polycom's RPWS (Online video conference web app), Theminimall.com (ECommerce Website) &amp; set of a static website (packingwood.in, vierbit.com, bizintrade.com, test.mojaave.com &amp; mojaave.com)
+          Since last 7 years, I have been working with different companies, 
+          I have designed and developed beautiful web applcations, check out in <a href="#projects">Projects section</a>.
+          with strong focus on performance & responsive design using the latest technologies.
         </p>
         <p className="lead card-text text-black">
-          Currently, I'm doing freelance work, If you think that I would be a good fit then 
-          <button type="button" className="btn btn-dark m-3">Let's Talk</button>
+          If you are looking for the full stack developer, 
+          who will take care of all aspect of your project
+          then you are in the right place
+          <a href="#about">Let's Talk</a>
         </p>
       </div>
     </div>
   </section>
-  <section id="project">
+  <section id="projects">
     <div className="jumbotron jumbotron-fluid">
       <div className="container">
-        <h1 className="display-5">Projects</h1>
-        <hr />
+        <div className="section-title shadow">
+          <h1 className="display-5">Projects</h1>
+          <h6 className="display-6">Pieces of my work</h6>
+        </div>
         <div className="row">
           <div className="col-md-6 col-xs-12">
             <div className="card shadow-lg">
@@ -180,6 +191,47 @@ export default () => (
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div className="jumbotron jumbotron-fluid">
+      <div className="container">
+        <div className="section-title">
+          <h1 className="display-5">Contact Me</h1>
+          <h6 className="display-6">Let`s build something unique</h6>
+        </div>
+        <hr />
+        <div className="row justify-content-center">
+        <div className="col-md-6 col-xs-11">
+          <div className="col-xs-12 about-text">
+            <h5 className="display-6">
+              <span className="d-none d-sm-none">Feel free to </span>
+              <span>Connect with me via - </span>
+              <a  style={{marginLeft: "5px"}} title="Github" href="https://github.com/mhjadav/gatsby-starter-bootstrap-cv" className="card-link text-black"><i className="fa fa-github" /></a>
+              <a title="Twitter" href="https://twitter.com/mhjadav" className="card-link text-black"><i className="fa fa-twitter" /></a>
+              <a title="Email" href="mailto:mj@mojaave.com" className="card-link text-black"><i className="fa fa-envelope" /></a>
+              <a title="Linkedin" href="https://www.linkedin.com/in/mahipat-jadav-987986158/" className="card-link text-black"><i className="fa fa-linkedin" /></a>
+            </h5>
+            <h5 className="display-6">Or Leave a message below </h5>
+          </div>
+            <form id="contact-form"  method="POST" netlify="true">
+              <input id="username" name="emailto" type="hidden" value="mj@mojaave.com"/>
+              <div className="form-group">
+                <input type="email" className="form-control" id="txt-email" name="email" aria-describedby="emailHelp" placeholder="Enter email" required/>
+              </div>
+              <div className="form-group">
+                <input type="text" className="form-control" id="txt-name" name="name" placeholder="Enter Name" required/>
+              </div>
+              <div className="form-group">
+                <textarea  className="form-control" id="txt-message" name="message" placeholder="Enter Message" required/>
+              </div>
+              <div className="form-group justify-content-end">
+                <button type="submit" className="btn btn-warning">Send</button>
+              </div>
+            </form>
+          </div>
+          </div>
       </div>
     </div>
   </section>
