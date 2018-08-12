@@ -251,7 +251,7 @@ export default () => (
                                 <path className="heart-loader__circle m--right" strokeWidth={1} fill="none" d="M60,60 a30,30 0 0,1 -60,0 a30,30 0 0,1 60,0" />
                                 <path className="heart-loader__heartPath" strokeWidth={2} d="M60,30 a30,30 0 0,1 0,60 L0,90 0,30 a30,30 0 0,1 60,0" />
                                 </g>
-                            </svg> using <a  href="https://www.gatsbyjs.org/">Gatsby</a> & Hosted on <a  href="https://www.github.com/mhjadav"> Github </a>
+                            </svg> using <a  href="https://www.gatsbyjs.org/">Gatsby</a> & Hosted on <a  href="https://www.github.com/mhjadav"> Netlify </a>
                 </p>
               </li>
               
