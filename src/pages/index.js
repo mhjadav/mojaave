@@ -54,7 +54,7 @@ export default () => (
         </nav>
       </header>
       <section id="header">
-      <div className="jumbotron">
+      <div className="jumbotron jumbotron-fluid">
           <div className="container">
             <div className="col-12">
               <div className="card bg-dark shadow-lg">
@@ -95,8 +95,8 @@ export default () => (
       <div className="container">
         <div className="section-title">
           <h1 className="display-5">About Me</h1>
+          <span className="animate-border ml-auto mr-auto"></span>
         </div>
-        <hr />
         <p className="lead card-text text-black">
           Since last 7 years, I have been working with different companies, 
           I have designed and developed beautiful web applcations, check out in <a href="#projects">Projects section</a>.
@@ -106,7 +106,7 @@ export default () => (
           If you are looking for the full stack developer, 
           who will take care of all aspect of your project
           then you are in the right place
-          <a href="#about">Let's Talk</a>
+          <a href="#contact">Let's Talk</a>
         </p>
       </div>
     </div>
@@ -114,9 +114,10 @@ export default () => (
   <section id="projects">
     <div className="jumbotron jumbotron-fluid">
       <div className="container">
-        <div className="section-title shadow">
+        <div className="section-title">
           <h1 className="display-5">Projects</h1>
           <h6 className="display-6">Pieces of my work</h6>
+          <span className="animate-border border-green  ml-auto mr-auto"></span>
         </div>
         <div className="row">
           <div className="col-md-6 col-xs-12">
@@ -200,8 +201,8 @@ export default () => (
         <div className="section-title">
           <h1 className="display-5">Contact Me</h1>
           <h6 className="display-6">Let`s build something unique</h6>
+          <span className="animate-border mt-4 ml-auto mr-auto"></span>
         </div>
-        <hr />
         <div className="row justify-content-center">
         <div className="col-md-6 col-xs-11">
           <div className="col-xs-12 about-text">
@@ -225,7 +226,7 @@ export default () => (
                 <input type="text" className="form-control" id="txt-name" name="name" placeholder="Enter Name" required/>
               </div>
               <div className="form-group">
-                <textarea  className="form-control" id="txt-message" name="message" placeholder="Enter Message" required/>
+                <textarea  rows="5" className="form-control" id="txt-message" name="message" placeholder="Enter Message" required/>
               </div>
               <div className="form-group justify-content-end">
                 <button type="submit" className="btn btn-warning">Send</button>

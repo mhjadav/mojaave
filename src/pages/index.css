@@ -1,3 +1,58 @@
+.animate-border {
+  position: relative;
+  display: block;
+  width: 135px;
+  height: 3px;
+  background: #f9d30e;
+}
+.animate-border.border-green:after {
+  border-right-color: #28bba1;
+  border-left-color: #28bba1;
+}
+.animate-border:after {
+  position: absolute;
+  content: "";
+  width: 35px;
+  height: 3px;
+  left: 5%;
+  bottom: 0;
+  border-left: 10px solid #fff;
+  border-right: 10px solid #fff;
+}
+.animate-border:after {
+  position: absolute;
+  content: "";
+  width: 35px;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  border-left: 10px solid #fff;
+  border-right: 10px solid #fff;
+  -webkit-animation: animborder 2s linear infinite;
+  animation: animborder 2s linear infinite;
+}
+
+@-webkit-keyframes animborder {
+  0% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+  100% {
+    -webkit-transform: translateX(113px);
+    transform: translateX(113px);
+  }
+}
+@keyframes animborder {
+  0% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+  100% {
+    -webkit-transform: translateX(113px);
+    transform: translateX(113px);
+  }
+}
+
 @font-face {
   font-family: andika-basic;
   src: url(../static/fonts/AndikaNewBasic-R.ttf);
@@ -20,41 +75,31 @@ body{
   padding: 0;
   opacity: 1;
   color: white;
-  animation: fadein 1s;
-  -moz-animation: fadein 1s; 
-  -webkit-animation: fadein 1s; 
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; 
+  -webkit-animation: fadein 2s; 
 }
 
 .jumbotron{
   background: #ffc001 !important;
-  margin-bottom: -100px;
 }
 #header .jumbotron{
-  background: #ffc001 !important
+  background: #ffc001 !important;
+  margin-bottom: -130px;
 }
 
 #about .jumbotron{
-  background:white !important;
+  background: white !important;
   color:black;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 130px;
 }
 
 #projects .jumbotron{
   background:	#28BB9F !important;
-  margin-bottom: -20px;
-  padding-bottom: 125px;
 }
 #contact .jumbotron{
   background: white !important;
-  margin-bottom: -20px;
-  padding-bottom: 50px;
   color: black;
-}
-#contact .section-title {
-  margin-top: -108px;
-  background: #f46540;
-  color: #fff;
 }
 #projects .card-title{
   color: #ffc107;
@@ -136,10 +181,9 @@ body{
   transform: rotateY(20deg);
 }
 .section-title{
-  margin-top: -108px;
   text-align: center;
   padding: 2px;
-  background: #f46540;
+  height: 150px;
 }
 #about .section-title{
   background:none;
@@ -170,10 +214,6 @@ body{
     padding-right: 0;
   }
   #projects .card{
-    margin-bottom: 20px;
-  }
-  .section-title{
-    margin-top: -65px;
     margin-bottom: 20px;
   }
 }
