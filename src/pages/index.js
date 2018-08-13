@@ -38,7 +38,7 @@ export default () => (
           <div className="navbar-collapse  justify-content-center collapse" id="navbarsExample02">
             <ul className="navbar-nav">
               <li className="nav-item active">
-                <a className="nav-link" href="https://mojaave.com">Home <span className="sr-only">(current)</span></a>
+                <a className="nav-link" href="#header">Home <span className="sr-only">(current)</span></a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#about">About</a>
