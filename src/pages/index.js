@@ -32,6 +32,9 @@ export default () => (
         { rel: "icon", type: "image/png", sizes: "32x32", href: favicon32 }
       ]}
     />
+    <h1 hidden>
+      full stack developer, javascript developer, software engineer, web developer, react developer, reactjs developer, node developer, nodejs developer, graphql developer, angular developer, typescript developer, front end developer, front-end developer
+      </h1>
     <div className="container-fluid">
       <header>
         <nav className="navbar navbar-expand navbar-dark">
@@ -81,7 +84,7 @@ export default () => (
                 </div>
                 <div className="card-body bg-dark shadow-lg">
                   <h5 className="card-title">My Toolbox</h5>
-                  <p className="card-text">Javascript, HTML5, CSS3, Typescript, ReactJs, Redux, NodeJs, GraphQl, Gatsby, Angular, Bootstrap, DB(Mongodb, Redis), Git, Webpack, Jquery, Lodash & some more.</p>
+                  <h2 className="card-text">Javascript, HTML5, CSS3, Typescript, ReactJs, Redux, NodeJs, GraphQl, Gatsby, Angular, Bootstrap, DB(Mongodb, Redis), Git, Webpack, Jquery, Lodash & some more.</h2>
                 </div>
               </div>
             </div>
@@ -97,17 +100,16 @@ export default () => (
           <h1 className="display-5">About Me</h1>
           <span className="animate-border ml-auto mr-auto"></span>
         </div>
-        <p className="lead card-text text-black">
-          Since last 7 years, I have been working with different companies, 
-          I have designed and developed beautiful web applcations, check out in <a href="#projects">Projects section</a>.
+        <h5 className="lead card-text text-black">
+          Since last 7 years, I have been as working full stack developer with different companies, I have designed and developed beautiful web applcations, check out in <a href="#projects">Projects section</a>.
           with strong focus on performance & responsive design using the latest technologies.
-        </p>
-        <p className="lead card-text text-black">
+        </h5>
+        <h1 className="lead card-text text-black">
           If you are looking for the full stack developer, 
           who will take care of all aspect of your project
           then you are in the right place
           <a href="#contact">Let's Talk</a>
-        </p>
+        </h1>
       </div>
     </div>
   </section>
@@ -124,7 +126,7 @@ export default () => (
             <div className="card shadow-lg">
               <div className="card-body">
                 <h5 className="card-title">Cleartrip Pvt Ltd</h5>
-                <p className="card-text">As a UI engineer, my job is to contribute to hotels project at Cleartrip, during my journey at Cleartrip I have done some project includes - revamp filters design, GST Integration, Hotel Shortlist, Load Search page fast by prefetching data, Revamp details page, Pre-applied wallet balance and some more</p>
+                <p className="card-text">As a full stack developer, my job is to contribute to hotels project at Cleartrip, during my journey at Cleartrip I have done some project includes - revamp filters design, GST Integration, Hotel Shortlist, Load Search page fast by prefetching data, Revamp details page, Pre-applied wallet balance and some more</p>
                 <a href="https://cleartrip.com" className="btn btn-warning">Cleartrip.com</a>
               </div>
             </div>
@@ -133,7 +135,7 @@ export default () => (
             <div className="card shadow-lg">
               <div className="card-body">
                 <h5 className="card-title">RPWS web video conferancing(Polycom)</h5>
-                <p className="card-text">At Polycom, I have almost spent 2 years, During my period over here I have worked on lots of issues on an existing product(Web video conferencing application), I also i have integrated some of the important features in the product, Second i also have worked on more product to integrate web content share in desktop.</p>
+                <p className="card-text">As a software engieer at Polycom, I have almost spent 2 years, During my period over here I have worked on lots of issues on an existing product(Web video conferencing application), I also i have integrated some of the important features in the product, Second i also have worked on more product to integrate web content share in desktop.</p>
                 <a href="https://polycom.com" className="btn btn-warning">Polycom.com</a>
               </div>
             </div>
@@ -143,7 +145,7 @@ export default () => (
               <div className="card-body">
                 <h5 className="card-title">Vierbit.com</h5>
                 <p className="card-text">
-                  It's a portfolio website for Veirbit, where we are adding some new features to find a domain, contact support, submit data to make a website.
+                  As a full stack developer with vierbit, i have designed and developed, fast and responsive website, It's a portfolio website for Veirbit, where we are adding some new features to find a domain, contact support, submit data to make a website.
                   We have added feature to search domain, and submit website requirement.
                 </p>
                 <a href="https://vierbit.com" className="btn btn-warning">Vierbit.com</a>
@@ -154,8 +156,8 @@ export default () => (
             <div className="card shadow-lg">
               <div className="card-body">
                 <h5 className="card-title">Pholio Polycom</h5>
-                <p className="card-text">Portal is for validation of video endpoints
-                  Main modules in this are OAuth Login, List Registered devices, Add/Edit device
+                <p className="card-text">
+                  I have played the role of front end developer in Phoilo Project, Portal is for validation of video endpoints, Main modules in this are OAuth Login, List Registered devices, Add/Edit device
                   After registering the device with this portal user can join a meeting from that device
                 </p>
                 <a href="https://polycom.com" className="btn btn-warning">Polycom.com</a>
@@ -166,7 +168,7 @@ export default () => (
             <div className="card shadow-lg">
               <div className="card-body">
                 <h5 className="card-title">Theminimall (Alpine Health)</h5>
-                <p className="card-text">E-Commerce portal for sellers and buyers
+                <p className="card-text">My career started as a web developer with alpine health, It's a E-Commerce portal for sellers and buyers
                   Sellers can create their store and upload products of different range
                   The main component on buyer side are search product, list products, add to cart, payment, Account/Order management
                   CC Avenue payment gateway is integrated with this product</p>
@@ -260,5 +262,8 @@ export default () => (
           </div>
         </nav>
       </header>
+      <h1 hidden>
+      full stack developer, javascript developer, software engineer, web developer, react developer, reactjs developer, node developer, nodejs developer, graphql developer, angular developer, typescript developer, front end developer, front-end developer
+      </h1>
   </React.Fragment>
 );

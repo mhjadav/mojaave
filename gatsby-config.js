@@ -7,7 +7,8 @@ const {
   themeColor,
   backgroundColor,
   siteUrl,
-  siteLogo
+  siteLogo,
+  googleAnalyticsID
 } = require('./data/site-config');
 module.exports = {
     siteMetadata: {
@@ -21,7 +22,7 @@ module.exports = {
       {
         resolve: `gatsby-plugin-google-analytics`,
         options: {
-          trackingId: "UA-115817837-3",
+          trackingId: googleAnalyticsID,
           head: true
         }
       },

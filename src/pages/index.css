@@ -121,6 +121,9 @@ body{
   cursor: pointer;
   color: black;
 }
+h2.card-text{
+  font-size: 1rem;
+}
 .text-black:hover{
   transform: rotateY(20deg);
 }
