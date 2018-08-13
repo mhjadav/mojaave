@@ -1,10 +1,10 @@
 //const path = require('path');
 
 module.exports = {
-    name:"Mojaave.com",
+    name:"Mahipat Jadav",
     siteTitle: "Mahipat Jadav | Full stack developer | Javascript, ReactJs | India", // Site title.
     siteLogo: `${__dirname}/../src/static/images/mahipat.jpg`,
-    siteUrl: "https://mhjadav.github.io/gatsby-starter-bootstrap-cv", // Domain of your website without pathPrefix.
+    siteUrl: "https://www.mojaave.com", // Domain of your website without pathPrefix.
     siteKeyword:"mahipat Jadav, full stack developer, mahipat, javascript, react js, Angular, node js, graphql, jquery, lodash, javascript expert, Typescript, ES6, software engineer, web developer, front end developer, bootstrap, material design.",
     siteDescription: "I am Mahipat Jadav, Full stack developer from india, If you are looking for javscript expert i can help you, i have experience in all new age javascript technologies like Typescript/ES6, React JS, Angular, NodeJS, Graph Ql, Material UI/Bootstrap etc.", // Website description used for RSS feeds/meta description tag.
     googleAnalyticsID: "", // GA tracking ID.
@@ -134,7 +134,7 @@ module.exports = {
     userLinks: [
       {
         label: "GitHub",
-        url: "https://github.com/mhjadav/gatsby-starter-bootstrap-cv",
+        url: "https://github.com/mhjadav/mojaave",
         iconClassName: "fa fa-github"
       },
       {

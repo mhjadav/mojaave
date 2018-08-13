@@ -10,6 +10,12 @@ const {
   siteLogo
 } = require('./data/site-config');
 module.exports = {
+    siteMetadata: {
+      title: siteTitle,
+      description: siteDescription,
+      keywords: siteKeyword,
+      siteUrl: siteUrl
+    },
     plugins: [
       'gatsby-plugin-react-helmet',
       {
@@ -49,13 +55,9 @@ module.exports = {
         },
     },
     'gatsby-plugin-offline',
-    'gatsby-plugin-purgecss'
-    ],
-    siteMetadata: {
-      title: siteTitle,
-      description: siteDescription,
-      keywords: siteKeyword,
-      url: siteUrl
-    }
+    'gatsby-plugin-purgecss',
+    'gatsby-plugin-robots-txt',
+    'gatsby-plugin-sitemap',
+    ]
   };
   
