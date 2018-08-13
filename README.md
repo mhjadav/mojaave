@@ -27,8 +27,8 @@ gatsby develop
 - Animation to make it little jazzy
 - Font icons using `font-awesome`
 - Google Analytics using `gatsby-plugin-google-analytics`
-- Siteg `gatsby-plugin-sitemap`
-- Robots.txt `gatsby-plugin-robots-txt`
+- Sitemap enabled `gatsby-plugin-sitemap`
+- Robots.txt enabled `gatsby-plugin-robots-txt`
 - Prerendered Open Graph tags for rich sharing
 - Site config to add data
 - Make your site ready now
