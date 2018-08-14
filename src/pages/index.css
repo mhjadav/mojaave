@@ -598,3 +598,26 @@ h2.card-text{
     transform: translateX(113px);
   }
 }
+
+/*Fa style*/
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-twitter:before {
+  content: "\f099";
+}
+.fa-github:before {
+  content: "\f09b";
+}
+.fa-linkedin:before {
+  content: "\f0e1";
+}
+.fa-envelope:before {
+  content: "\f0e0";
+}
