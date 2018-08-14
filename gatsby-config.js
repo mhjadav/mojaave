@@ -9,7 +9,7 @@ const {
   siteUrl,
   siteLogo,
   googleAnalyticsID
-} = require('./data/site-config');
+} = require('./site-config');
 module.exports = {
     siteMetadata: {
       title: siteTitle,

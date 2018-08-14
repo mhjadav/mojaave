@@ -9,7 +9,7 @@ import {
   siteDescription,
   siteKeywords,
   siteURL
-} from "../../data/site-config";
+} from "../../site-config";
 import profilePic from "../static/images/mahipat-bike.jpg";
 import favicon32 from "../static/images/mahipat32.jpg";
 import favicon16 from "../static/images/mahipat16.jpg";
@@ -100,16 +100,18 @@ export default () => (
           <h1 className="display-5">About Me</h1>
           <span className="animate-border ml-auto mr-auto"></span>
         </div>
-        <h5 className="lead card-text text-black">
-          Since last 7 years, I have been as working full stack developer with different companies, I have designed and developed beautiful web applcations, check out in <a href="#projects">Projects section</a>.
-          with strong focus on performance & responsive design using the latest technologies.
-        </h5>
-        <h1 className="lead card-text text-black">
-          If you are looking for the full stack developer, 
-          who will take care of all aspect of your project
-          then you are in the right place
-          <a href="#contact">Let's Talk</a>
-        </h1>
+        <blockquote class="blockquote">
+          <h5 className="card-text text-black">
+            Since last 7 years, I have been as working full stack developer with different companies, I have designed and developed beautiful web applcations, check out in <a href="#projects">Projects section</a>.
+            with strong focus on performance & responsive design using the latest technologies.
+          </h5>
+          <h5 className="card-text text-black">
+            If you are looking for the full stack developer, 
+            who will take care of all aspect of your project
+            then you are in the right place
+            <a href="#contact">Let's Talk</a>
+          </h5>
+        </blockquote>
       </div>
     </div>
   </section>
