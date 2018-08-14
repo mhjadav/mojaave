@@ -1,5 +1,7 @@
-
-@import url('https://fonts.googleapis.com/css?family=Andika');
+@font-face {
+  font-family: Andika;
+  src: url(https://fonts.googleapis.com/css?family=Andika);
+}
 *{
   font-family: 'Andika', sans-serif;;
   font-display: auto;
