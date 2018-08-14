@@ -1,7 +1,7 @@
 //const path = require('path');
 
 module.exports = {
-    name:"Mahipat Jadav",
+    name:"Mahipat",
     siteTitle: "Mahipat Jadav,Full stack developer,Javascript,ReactJs,India", // Site title.
     siteLogo: `${__dirname}/../src/static/images/mahipat.jpg`,
     siteUrl: "https://www.mojaave.com", // Domain of your website without pathPrefix.
