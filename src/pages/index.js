@@ -37,7 +37,7 @@ export default () => (
     <div className="container-fluid">
       <header>
         <nav className="navbar navbar-expand navbar-dark">
-          <div className="navbar-collapse  justify-content-center collapse" id="navbarsExample02">
+          <div className="navbar-collapse  justify-content-center collapse">
             <ul className="navbar-nav">
               <li className="nav-item active">
                 <a className="nav-link" href="#header">Home <span className="sr-only">(current)</span></a>
@@ -244,7 +244,7 @@ export default () => (
     </div>
     <header>
         <nav className="navbar navbar-expand navbar-dark">
-          <div className="navbar-collapse  justify-content-center collapse" id="navbarsExample02">
+          <div className="navbar-collapse  justify-content-center collapse">
             <ul className="navbar-nav">
               <li className="nav-item active">
                 <p className="nav-link">
