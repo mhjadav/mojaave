@@ -100,7 +100,7 @@ export default () => (
           <h1 className="display-5">About Me</h1>
           <span className="animate-border ml-auto mr-auto"></span>
         </div>
-        <blockquote class="blockquote">
+        <blockquote className="blockquote">
           <h5 className="card-text text-black">
             Since last 7 years, I have been as working full stack developer with different companies, I have designed and developed beautiful web applcations, check out in <a href="#projects">Projects section</a>.
             with strong focus on performance & responsive design using the latest technologies.
