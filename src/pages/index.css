@@ -6,12 +6,11 @@
   font-style: normal;
 }
 @font-face {
+  src: url('../static/fonts/Andika-Regular.woff2') format('woff2'), url('../static/fonts/Andika-Regular.ttf') format('truetype');
   font-family: Andika;
-  src: url('https://fonts.googleapis.com/css?family=Andika');
 }
 *{
-  font-family: 'Andika', sans-serif;;
-  font-display: auto;
+  font-family: "Andika", sans-serif;;
 }
 html{
   scroll-behavior: smooth;
