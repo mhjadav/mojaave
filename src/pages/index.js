@@ -62,7 +62,7 @@ export default () => (
               <div className="card bg-dark shadow-lg">
                 <div className="card-body bg-warning about">
                   <div className="row">
-                    <div className="col-md-3 col-xs-12">
+                    <div className="col-md-3 col-xs-12 text-center">
                       <img src={profilePic} className="shadow-lg p-2 photo" alt="Mahipat Jadav"/>
                     </div>
                     <div className="col-md-9 col-xs-12 about-text">
@@ -71,7 +71,7 @@ export default () => (
                         <hr/>
                         <h4>
                         <div>
-                          <a title="Github" href="https://github.com/mhjadav/gatsby-starter-bootstrap-cv" className="card-link text-black"><i className="fa fa-github" /></a>
+                          <a title="Github" href="https://github.com/mhjadav/mojaave" className="card-link text-black"><i className="fa fa-github" /></a>
                           <a title="Twitter" href="https://twitter.com/mhjadav" className="card-link text-black"><i className="fa fa-twitter" /></a>
                           <a title="Email" href="mailto:mj@mojaave.com" className="card-link text-black"><i className="fa fa-envelope" /></a>
                           <a title="Linkedin" href="https://www.linkedin.com/in/mahipat-jadav-987986158/" className="card-link text-black"><i className="fa fa-linkedin" /></a>
@@ -137,7 +137,6 @@ export default () => (
               <div className="card-body">
                 <h5 className="card-title">RPWS web video conferancing(Polycom)</h5>
                 <p className="card-text">As a software engieer at Polycom, I have almost spent 2 years, During my period over here I have worked on lots of issues on an existing product(Web video conferencing application), I also i have integrated some of the important features in the product, Second i also have worked on more product to integrate web content share in desktop.</p>
-                <a href="https://polycom.com" className="btn btn-warning">Polycom.com</a>
               </div>
             </div>
           </div>
@@ -161,7 +160,6 @@ export default () => (
                   I have played the role of front end developer in Phoilo Project, Portal is for validation of video endpoints, Main modules in this are OAuth Login, List Registered devices, Add/Edit device
                   After registering the device with this portal user can join a meeting from that device
                 </p>
-                <a href="https://polycom.com" className="btn btn-warning">Polycom.com</a>
               </div>
             </div>
           </div>
@@ -173,7 +171,6 @@ export default () => (
                   Sellers can create their store and upload products of different range
                   The main component on buyer side are search product, list products, add to cart, payment, Account/Order management
                   CC Avenue payment gateway is integrated with this product</p>
-                <a href="https://theminimall.com" className="btn btn-warning">theminimall.com</a>
               </div>
             </div>
           </div>
@@ -182,7 +179,7 @@ export default () => (
               <div className="card-body">
                 <h5 className="card-title">Packingwood.in</h5>
                 <p className="card-text">It's a static portfolio web site for a wooden box manufacturing company, Hosted on git hub.</p>
-                <a href="https://packingwood.in" className="btn btn-warning">Packingwood.com</a>
+                <a href="https://packingwood.in" className="btn btn-warning">Packingwood.in</a>
               </div>
             </div>
           </div>
@@ -212,7 +209,7 @@ export default () => (
             <h5 className="display-6">
               <span className="d-none">Feel free to </span>
               <span>Connect with me via - </span>
-              <a  style={{marginLeft: "5px"}} title="Github" href="https://github.com/mhjadav/gatsby-starter-bootstrap-cv" className="card-link text-black"><i className="fa fa-github" /></a>
+              <a  style={{marginLeft: "5px"}} title="Github" href="https://github.com/mhjadav/mojaave" className="card-link text-black"><i className="fa fa-github" /></a>
               <a title="Twitter" href="https://twitter.com/mhjadav" className="card-link text-black"><i className="fa fa-twitter" /></a>
               <a title="Email" href="mailto:mj@mojaave.com" className="card-link text-black"><i className="fa fa-envelope" /></a>
               <a title="Linkedin" href="https://www.linkedin.com/in/mahipat-jadav-987986158/" className="card-link text-black"><i className="fa fa-linkedin" /></a>

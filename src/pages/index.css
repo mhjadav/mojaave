@@ -171,6 +171,9 @@ h2.card-text{
   #projects .card{
     margin-bottom: 20px;
   }
+  .photo{
+    width: 60%;
+  }
 }
 *, *:before, *:after {
   box-sizing: border-box;
@@ -225,6 +228,9 @@ h2.card-text{
           animation: heart-anim 7s 1s infinite;
 }
 
+.card-link + .card-link{
+  margin-left: 1rem;
+}
 @-webkit-keyframes square-anim {
   12% {
     stroke-dashoffset: 0;
