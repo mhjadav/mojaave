@@ -6,8 +6,8 @@ import "./index.css";
 import {
   siteTitle,
   siteDescription,
-  siteKeywords,
-  siteURL
+  siteKeyword,
+  siteUrl
 } from "../../site-config";
 import profilePic from "../static/images/mahipat-bike.jpg";
 import favicon32 from "../static/images/mahipat32.jpg";
@@ -20,10 +20,11 @@ export default () => (
       title={siteTitle}
       meta={[
         { name: "description", content: siteDescription },
-        { name: "keywords", content: siteKeywords },
-        { property: "og:url", content: siteURL },
-        { property: "og:image", content: ogImage },
+        { name: "keywords", content: siteKeyword },
+        { property: "og:url", content: siteUrl },
+        { property: "og:image", content: "https://www.mojaave.com" + ogImage },
         { property: "og:title", content: siteTitle },
+        { property: "og:type", content: "portfolio" },
         { property: "og:description", content: siteDescription }
       ]}
       link={[
@@ -32,7 +33,7 @@ export default () => (
       ]}
     />
     <h1 hidden>
-      full stack developer, javascript developer, software engineer, web developer, react developer, reactjs developer, node developer, nodejs developer, graphql developer, angular developer, typescript developer, front end developer, front-end developer
+      fullstack developer, freelancer in usa, font end developer in usa, fullstack developer in usa, javascript developer, software engineer, web developer, react developer, reactjs developer, node developer, nodejs developer, graphql developer, angular developer, typescript developer, front end developer, front-end developer
       </h1>
     <div className="container-fluid">
       <header>

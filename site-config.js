@@ -5,7 +5,7 @@ module.exports = {
     siteTitle: "Mahipat Jadav,Full stack developer,Javascript,ReactJs,India", // Site title.
     siteLogo: `${__dirname}/src/static/images/mahipat.jpg`,
     siteUrl: "https://www.mojaave.com", // Domain of your website without pathPrefix.
-    siteKeyword:"mahipat Jadav, full stack developer, javascript developer, reactjs developer, Angular, nodejs developer, graphql, jquery, lodash, typescript, software engineer, web developer, front-end developer, responsive web design",
+    siteKeyword:"mahipat Jadav, full stack developer in usa, freelancer in usa, javascript developer in usa, reactjs developer, Angular, nodejs developer, graphql, jquery, lodash, typescript, software engineer, web developer, front-end developer, responsive web design",
     siteDescription: "Full stack developer, I have designed and developed fast and responsive web applications using Javascript, ReactJS, Redux, NodeJs, GraphQl, Bootstrap, Gatsby", // Website description used for RSS feeds/meta description tag.
     googleAnalyticsID: "UA-115817837-3", // GA tracking ID.
     userName: "Mahipat Jadav", // Username to display in the author segment.
