@@ -104,7 +104,7 @@ export default () => (
         </div>
         <blockquote className="blockquote">
           <h5 className="card-text text-black">
-            Since last 7 years, I have been as working full stack developer with companies in india, I have designed and developed reliable, fast, engaging & responsive websites, 
+            Since last 7 years, I have been working as full stack developer with companies in india, I have designed and developed reliable, fast, engaging & responsive websites, 
             with strong focus on performance & responsive design using the latest technologies. check out in <a href="#projects">Projects section</a>.
           </h5>
           <h5 className="card-text text-black">
