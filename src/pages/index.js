@@ -6,7 +6,6 @@ import "./index.css";
 import {
   siteTitle,
   siteDescription,
-  siteKeyword,
   siteUrl
 } from "../../site-config";
 import profilePic from "../static/images/mahipat-bike.jpg";
@@ -20,7 +19,6 @@ export default () => (
       title={siteTitle}
       meta={[
         { name: "description", content: siteDescription },
-        { name: "keywords", content: siteKeyword },
         { property: "og:url", content: siteUrl },
         { property: "og:image", content: "https://www.mojaave.com" + ogImage },
         { property: "og:title", content: siteTitle },
@@ -36,7 +34,8 @@ export default () => (
       <link rel="canonical" href="https://www.mojaave.com" />
     </Helmet>
     <h1 hidden>
-      fullstack developer, freelancer in usa, font end developer in usa, fullstack developer in usa, javascript developer, software engineer, web developer, react developer, reactjs developer, node developer, nodejs developer, graphql developer, angular developer, typescript developer, front end developer, front-end developer
+      full stack developer, freelancer in usa, font end developer in usa, full stack developer in usa, javascript developer, software engineer, web developer, react developer, reactjs developer, node developer, nodejs developer, graphql developer, angular developer, typescript developer, front end developer.
+      {siteDescription}
       </h1>
     <div className="container-fluid">
       <header>
@@ -105,8 +104,8 @@ export default () => (
         </div>
         <blockquote className="blockquote">
           <h5 className="card-text text-black">
-            Since last 7 years, I have been as working full stack developer with different companies, I have designed and developed beautiful web applcations, check out in <a href="#projects">Projects section</a>.
-            with strong focus on performance & responsive design using the latest technologies.
+            Since last 7 years, I have been as working full stack developer with companies in india, I have designed and developed reliable, fast, engaging & responsive websites, 
+            with strong focus on performance & responsive design using the latest technologies. check out in <a href="#projects">Projects section</a>.
           </h5>
           <h5 className="card-text text-black">
             If you are looking for the full stack developer, 
@@ -265,7 +264,8 @@ export default () => (
         </nav>
       </header>
       <h1 hidden>
-      full stack developer, javascript developer, software engineer, web developer, react developer, reactjs developer, node developer, nodejs developer, graphql developer, angular developer, typescript developer, front end developer, front-end developer
+      full stack developer, freelancer in usa, font end developer in usa, full stack developer in usa, javascript developer, software engineer, web developer, react developer, reactjs developer, node developer, nodejs developer, graphql developer, angular developer, typescript developer, front end developer.
+      {siteDescription}
       </h1>
   </React.Fragment>
 );

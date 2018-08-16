@@ -14,7 +14,6 @@ module.exports = {
     siteMetadata: {
       title: siteTitle,
       description: siteDescription,
-      keywords: siteKeyword,
       siteUrl: siteUrl
     },
     plugins: [
