@@ -32,6 +32,9 @@ export default () => (
         { rel: "icon", type: "image/png", sizes: "32x32", href: favicon32 }
       ]}
     />
+    <Helmet>
+      <link rel="canonical" href="https://www.mojaave.com" />
+    </Helmet>
     <h1 hidden>
       fullstack developer, freelancer in usa, font end developer in usa, fullstack developer in usa, javascript developer, software engineer, web developer, react developer, reactjs developer, node developer, nodejs developer, graphql developer, angular developer, typescript developer, front end developer, front-end developer
       </h1>
