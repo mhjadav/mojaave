@@ -77,7 +77,7 @@ export default () => (
                           <a title="Github" href="https://github.com/mhjadav/mojaave" className="card-link text-black"><i className="fa fa-github" /></a>
                           <a title="Twitter" href="https://twitter.com/mhjadav" className="card-link text-black"><i className="fa fa-twitter" /></a>
                           <a title="Email" href="mailto:mj@mojaave.com" className="card-link text-black"><i className="fa fa-envelope" /></a>
-                          <a title="Linkedin" href="https://www.linkedin.com/in/mahipat-jadav-987986158/" className="card-link text-black"><i className="fa fa-linkedin" /></a>
+                          <a title="Linkedin" href="https://www.linkedin.com/in/mhjadav/" className="card-link text-black"><i className="fa fa-linkedin" /></a>
                         </div>
 
                         </h4>
@@ -215,7 +215,7 @@ export default () => (
               <a  style={{marginLeft: "5px"}} title="Github" href="https://github.com/mhjadav/mojaave" className="card-link text-black"><i className="fa fa-github" /></a>
               <a title="Twitter" href="https://twitter.com/mhjadav" className="card-link text-black"><i className="fa fa-twitter" /></a>
               <a title="Email" href="mailto:mj@mojaave.com" className="card-link text-black"><i className="fa fa-envelope" /></a>
-              <a title="Linkedin" href="https://www.linkedin.com/in/mahipat-jadav-987986158/" className="card-link text-black"><i className="fa fa-linkedin" /></a>
+              <a title="Linkedin" href="https://www.linkedin.com/in/mhjadav/" className="card-link text-black"><i className="fa fa-linkedin" /></a>
             </h5>
             <h5 className="display-6">Or Leave a message below </h5>
           </div>
