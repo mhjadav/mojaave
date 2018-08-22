@@ -627,3 +627,6 @@ h2.card-text{
 .fa-envelope:before {
   content: "\f0e0";
 }
+.fa-skype:before {
+  content: "\f17e";
+}
