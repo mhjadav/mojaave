@@ -32,6 +32,7 @@ export default () => (
     />
     <Helmet>
       <link rel="canonical" href="https://www.mojaave.com" />
+      <script src='https://www.google.com/recaptcha/api.js'></script>
     </Helmet>
     <h1 hidden>
       full stack developer, freelancer in usa, font end developer in usa, full stack developer in usa, javascript developer, software engineer, web developer, react developer, reactjs developer, node developer, nodejs developer, graphql developer, angular developer, typescript developer, front end developer.
@@ -223,13 +224,16 @@ export default () => (
             <input type="hidden" name="bot-field" />
               <input id="username" name="emailto" type="hidden" value="mj@mojaave.com"/>
               <div className="form-group">
-                <input type="email" className="form-control" id="txt-email" name="email" aria-describedby="emailHelp" placeholder="Enter email" required/>
+                <input type="email" className="form-control" id="txt-email" name="email" aria-describedby="emailHelp" placeholder="Enter email" required />
               </div>
               <div className="form-group">
-                <input type="text" className="form-control" id="txt-name" name="name" placeholder="Enter Name" required/>
+                <input type="text" className="form-control" id="txt-name" name="name" placeholder="Enter Name" required />
               </div>
               <div className="form-group">
-                <textarea  rows="5" className="form-control" id="txt-message" name="message" placeholder="Enter Message" required/>
+                <textarea rows="5" className="form-control" id="txt-message" name="message" placeholder="Enter Message" required />
+              </div>
+              <div className="form-group">
+                <div class="g-recaptcha" data-sitekey="6Lf8T3wUAAAAABApAbCUyOesm57GnqanN0Ir8dFG"></div>
               </div>
               <div className="form-group justify-content-end">
                 <button type="submit" className="btn btn-warning">Send</button>
