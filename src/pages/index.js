@@ -32,7 +32,7 @@ export default () => {
     />
     <Helmet>
       <link rel="canonical" href="https://www.mojaave.com" />
-      <script src='https://www.google.com/recaptcha/api.js'></script>
+      {/* <script src='https://www.google.com/recaptcha/api.js'></script> */}
     </Helmet>
     <h1 hidden>
       full stack developer, freelancer in usa, font end developer in usa, full stack developer in usa, javascript developer, software engineer, web developer, react developer, reactjs developer, node developer, nodejs developer, graphql developer, angular developer, typescript developer, front end developer.
