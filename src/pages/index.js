@@ -13,8 +13,8 @@ import favicon32 from "../static/images/mahipat32.jpg";
 import favicon16 from "../static/images/mahipat16.jpg";
 import ogImage from "../static/images/mahipat250.jpg";
 
-export default () => (
-  <React.Fragment>
+export default () => {
+  return (<React.Fragment>
     <Helmet
       title={siteTitle}
       meta={[
@@ -215,8 +215,8 @@ export default () => (
               <a title="Skype" href="skype:mahipat2?chat" className="card-link text-black"><i className="fa fa-skype" /></a>
             </h5>
         </div>
-        <div className="row justify-content-center mt-5">
-        <div className="col-md-6 col-xs-11">
+        {/* <div className="row justify-content-center mt-5">
+          <div className="col-md-6 col-xs-11">
           <div className="col-xs-12 about-text">
             <h5 className="display-6">Leave a message below </h5>
           </div>
@@ -233,14 +233,14 @@ export default () => (
                 <textarea rows="5" className="form-control" id="txt-message" name="message" placeholder="Enter Message" required />
               </div>
               <div className="form-group">
-                <div class="g-recaptcha" data-sitekey="6Lf8T3wUAAAAABApAbCUyOesm57GnqanN0Ir8dFG"></div>
+                <div className="g-recaptcha" data-sitekey="6Lf8T3wUAAAAABApAbCUyOesm57GnqanN0Ir8dFG"></div>
               </div>
               <div className="form-group justify-content-end">
                 <button type="submit" className="btn btn-warning">Send</button>
               </div>
             </form>
           </div>
-          </div>
+          </div> */}
       </div>
     </div>
   </section>
@@ -251,18 +251,7 @@ export default () => (
           <div className="navbar-collapse  justify-content-center collapse">
             <ul className="navbar-nav">
               <li className="nav-item active">
-                <p className="nav-link">
-                  Built with <svg className="heart-loader" xmlnsrdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlnssvg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 90 90" version="1.1">
-                                <g className="heart-loader__group">
-                                <path className="heart-loader__square" strokeWidth={1} fill="none" d="M0,30 0,90 60,90 60,30z" />
-                                <path className="heart-loader__circle m--left" strokeWidth={1} fill="none" d="M60,60 a30,30 0 0,1 -60,0 a30,30 0 0,1 60,0" />
-                                <path className="heart-loader__circle m--right" strokeWidth={1} fill="none" d="M60,60 a30,30 0 0,1 -60,0 a30,30 0 0,1 60,0" />
-                                <path className="heart-loader__heartPath" strokeWidth={2} d="M60,30 a30,30 0 0,1 0,60 L0,90 0,30 a30,30 0 0,1 60,0" />
-                                </g>
-                            </svg> using <a  href="https://www.gatsbyjs.org/">Gatsby</a> & Hosted on <a  href="https://www.github.com/mhjadav"> Netlify </a>
-                </p>
               </li>
-              
             </ul>
           </div>
         </nav>
@@ -271,5 +260,5 @@ export default () => (
       full stack developer, freelancer in usa, font end developer in usa, full stack developer in usa, javascript developer, software engineer, web developer, react developer, reactjs developer, node developer, nodejs developer, graphql developer, angular developer, typescript developer, front end developer.
       {siteDescription}
       </h1>
-  </React.Fragment>
-);
+  </React.Fragment>)
+};
