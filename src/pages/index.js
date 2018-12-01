@@ -53,6 +53,9 @@ export default () => {
                 <a className="nav-link" href="#projects">Projects</a>
               </li>
               <li className="nav-item">
+                <a className="nav-link" href="https://medium.com/@mjadav" target="_blank">Blog</a>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
