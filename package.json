@@ -3,26 +3,30 @@
   "description": "Mahipat Jadav Portfolio",
   "version": "1.0.0",
   "author": "Mahipat Jadav <mj@mojaave.com>",
-  "license": "MIT",
   "keywords": [
     "gatsby",
     "gatsby mojaave",
     "mahipat portfolio"
   ],
   "scripts": {
-    "develop": "gatsby develop",
+    "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "gatsby": "next",
+    "gatsby": "^2.0.33",
+    "gatsby-image": "^2.0.25",
     "gatsby-plugin-google-analytics": "next",
     "gatsby-plugin-manifest": "next",
-    "gatsby-plugin-offline": "next",
+    "gatsby-plugin-offline": "^2.0.19",
     "gatsby-plugin-react-helmet": "next",
     "gatsby-plugin-robots-txt": "^1.3.0",
+    "gatsby-plugin-sharp": "^2.0.15",
     "gatsby-plugin-sitemap": "next",
+    "gatsby-source-filesystem": "^2.0.12",
+    "gatsby-transformer-sharp": "^2.1.9",
+    "path": "^0.12.7",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-helmet": "^5.2.0"
@@ -33,6 +37,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mhjadav/gatsby-starter-bootstrap-cv"
+    "url": "https://github.com/mhjadav/mojaave"
   }
 }

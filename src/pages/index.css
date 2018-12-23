@@ -132,8 +132,11 @@ body{
 h2.card-text{
   font-size: 1rem;
 }
-.text-black:hover{
-  transform: rotateY(20deg);
+.card{
+  transition: transform 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+.card:hover{
+  transform: translate3d(0, -10px, -10px)
 }
 .section-title{
   text-align: center;

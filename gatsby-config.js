@@ -1,4 +1,5 @@
-//const path = require('path');
+const path = require('path');
+
 const {
   name,
   siteTitle,
@@ -17,42 +18,51 @@ module.exports = {
       siteUrl: siteUrl
     },
     plugins: [
-      'gatsby-plugin-react-helmet',
-      {
-        resolve: `gatsby-plugin-google-analytics`,
-        options: {
-          trackingId: googleAnalyticsID,
-          head: true
-        }
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: path.join(__dirname, `src/static`, `images`),
       },
-      {
-        resolve: `gatsby-plugin-manifest`,
-        options: {
-          name: siteTitle,
-          short_name: name,
-          start_url: "/",
-          background_color: backgroundColor,
-          theme_color: themeColor,
-          display: "standalone",
-          icon: siteLogo,
-          icons: [
-            {
-              src: "/images/mahipat48.jpg",
-              sizes: `48x48`,
-              type: `image/jpg`
-            },
-            {
-              src: "/images/mahipat192.jpg",
-              sizes: `192x192`,
-              type: `image/jpg`
-            },
-            {
-              src: "/images/mahipat512.jpg",
-              sizes: `512x512`,
-              type: `image/jpg`
-            },
-          ]
-        },
+    },
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-react-helmet',
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: googleAnalyticsID,
+        head: true
+      }
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: siteTitle,
+        short_name: name,
+        start_url: "/",
+        background_color: backgroundColor,
+        theme_color: themeColor,
+        display: "standalone",
+        icon: siteLogo,
+        icons: [
+          {
+            src: "/images/mahipat48.jpg",
+            sizes: `48x48`,
+            type: `image/jpg`
+          },
+          {
+            src: "/images/mahipat192.jpg",
+            sizes: `192x192`,
+            type: `image/jpg`
+          },
+          {
+            src: "/images/mahipat512.jpg",
+            sizes: `512x512`,
+            type: `image/jpg`
+          },
+        ]
+      },
     },
     {
       resolve: 'gatsby-plugin-robots-txt',
