@@ -35,6 +35,7 @@ module.exports = {
         head: true
       }
     },
+    'gatsby-plugin-purgecss',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -72,9 +73,8 @@ module.exports = {
         policy: [{ userAgent: '*', disallow: '' }]
       }
     },
-    'gatsby-plugin-offline',
-    'gatsby-plugin-purgecss',
     'gatsby-plugin-sitemap',
+    'gatsby-plugin-offline',
     ]
   };
   
