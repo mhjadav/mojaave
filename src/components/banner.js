@@ -45,7 +45,7 @@ export default () => (
                             </div>
                             <div className="card-body bg-dark shadow-lg">
                                 <h5 className="card-title">My Toolbox</h5>
-                                <h2 className="card-text">Javascript, HTML5, CSS3, ReactJS, Redux, NodeJS, GraphQl, GatsbyJS, Bootstrap, DB(Mongodb, Redis), Git, Webpack, Jekyll.</h2>
+                                <h2 className="card-text">Javascript, HTML5, CSS3, ReactJS, Redux, NodeJS, GraphQl, GatsbyJS, Bootstrap, DB(Mongodb, Redis), Git, Webpack, Servicenow, AngularJS, Jekyll.</h2>
                             </div>
                             </div>
                         </div>
