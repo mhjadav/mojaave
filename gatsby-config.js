@@ -1,5 +1,3 @@
-const path = require('path');
-
 const {
   name,
   siteTitle,
@@ -22,7 +20,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: path.join(__dirname, `src/static`, `images`),
+        path: `${__dirname}/src/static/images`,
       },
     },
     'gatsby-plugin-sharp',
