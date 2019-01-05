@@ -5045,6 +5045,14 @@ gatsby-source-filesystem@^2.0.12:
     valid-url "^1.0.9"
     xstate "^3.1.0"
 
+gatsby-transformer-json@^2.1.6:
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-json/-/gatsby-transformer-json-2.1.6.tgz#ca51107b13ddf8b97aa915f8b349a409e9af3868"
+  integrity sha512-L+BGJOb+NzSl5LvzA17qwnko64lGzLqW/A599l+vzCgv7DjGWBiKz8o5Agqlp0EF13gfyeV+xNde6mLZcpNtVA==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    bluebird "^3.5.0"
+
 gatsby-transformer-sharp@^2.1.9:
   version "2.1.9"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.1.9.tgz#b00b9e8f4ec2648016bf87e5b0daf59daef8f805"
