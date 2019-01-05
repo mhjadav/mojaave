@@ -31,7 +31,7 @@ export default () => (
                         <div className="col-md-6 col-xs-12">
                             <div className="card shadow-lg">
                                 <div className="card-img-top">
-                                    <Img fluid={data.allFile.edges[4].node.childImageSharp.fluid} alt="full stack developer" />
+                                    <Img fluid={data.allFile.edges[2].node.childImageSharp.fluid} alt="full stack developer" />
                                 </div>
                                 <div className="card-body">
                                     <h5 className="card-title">Plivo.com</h5>
@@ -45,7 +45,7 @@ export default () => (
                         <div className="col-md-6 col-xs-12">
                             <div className="card shadow-lg">
                                 <div className="card-img-top">
-                                    <Img fluid={data.allFile.edges[3].node.childImageSharp.fluid} alt="full stack developer" />
+                                    <Img fluid={data.allFile.edges[5].node.childImageSharp.fluid} alt="full stack developer" />
                                 </div>
                                 <div className="card-body">
                                     <h5 className="card-title">Thairpysalonandspa.ca</h5>
@@ -59,7 +59,7 @@ export default () => (
                         <div className="col-md-6 col-xs-12">
                             <div className="card shadow-lg">
                                 <div className="card-img-top">
-                                    <Img fluid={data.allFile.edges[2].node.childImageSharp.fluid} alt="full stack developer" />
+                                    <Img fluid={data.allFile.edges[3].node.childImageSharp.fluid} alt="full stack developer" />
                                 </div>
                                 <div className="card-body">
                                     <h5 className="card-title">NxDigital.com.au</h5>
@@ -74,7 +74,7 @@ export default () => (
                         <div className="col-md-6 col-xs-12">
                             <div className="card shadow-lg">
                                 <div className="card-img-top">
-                                    <Img fluid={data.allFile.edges[1].node.childImageSharp.fluid} alt="full stack developer" />
+                                    <Img fluid={data.allFile.edges[0].node.childImageSharp.fluid} alt="full stack developer" />
                                 </div>
                                 <div className="card-body">
                                     <h5 className="card-title">Vierbit.com</h5>
@@ -89,7 +89,7 @@ export default () => (
                         <div className="col-md-6 col-xs-12">
                             <div className="card shadow-lg">
                                 <div className="card-img-top">
-                                    <Img fluid={data.allFile.edges[0].node.childImageSharp.fluid} alt="full stack developer" />
+                                    <Img fluid={data.allFile.edges[1].node.childImageSharp.fluid} alt="full stack developer" />
                                 </div>
                                 <div className="card-body">
                                     <h5 className="card-title">Cleartrip Pvt Ltd</h5>
@@ -98,61 +98,61 @@ export default () => (
                                 </div>
                             </div>
                         </div>
-                    <div className="col-md-6 col-xs-12">
-                        <div className="card shadow-lg">
-                            <div className="card-img-top">
-                                    <Img fluid={data.allFile.edges[5].node.childImageSharp.fluid} alt="full stack developer" />
+                        <div className="col-md-6 col-xs-12">
+                            <div className="card shadow-lg">
+                                <div className="card-img-top">
+                                        <Img fluid={data.allFile.edges[4].node.childImageSharp.fluid} alt="full stack developer" />
+                                    </div>
+                                <div className="card-body">
+                                    <h5 className="card-title">Packingwood.in</h5>
+                                    <p className="card-text">
+                                        It's a static portfolio website for a wooden box manufacturing company, This is one of the early days project i got, i have used simple html,css, javascript to build this website. 
+                                    </p>
+                                    <a href="https://packingwood.in" className="btn btn-warning">Packingwood.in</a>
                                 </div>
-                            <div className="card-body">
-                                <h5 className="card-title">Packingwood.in</h5>
-                                <p className="card-text">
-                                    It's a static portfolio website for a wooden box manufacturing company, This is one of the early days project i got, i have used simple html,css, javascript to build this website. 
-                                </p>
-                                <a href="https://packingwood.in" className="btn btn-warning">Packingwood.in</a>
                             </div>
                         </div>
-                    </div>
-                    <div className="col-md-6 col-xs-12">
-                        <div className="card shadow-lg">
-                            <div className="card-body">
-                                <h5 className="card-title">Service now projects</h5>
-                                <p className="card-text">
-                                I worked with multiple clients to build a web application using ServiceNow, my job with these clients is to build UI for them and also build some tool using ServiceNow depends on their requirement, Client includes - Patientrails, Nokia, CareAR
-                                </p>
+                        <div className="col-md-6 col-xs-12">
+                            <div className="card shadow-lg">
+                                <div className="card-body">
+                                    <h5 className="card-title">Service now projects</h5>
+                                    <p className="card-text">
+                                    I worked with multiple clients to build a web application using ServiceNow, my job with these clients is to build UI for them and also build some tool using ServiceNow depends on their requirement, Client includes - Patientrails, Nokia, CareAR
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="col-md-6 col-xs-12">
-                        <div className="card shadow-lg">
-                            <div className="card-body">
-                                <h5 className="card-title">RPWS web video conferancing(Polycom)</h5>
-                                <p className="card-text">As a software engieer at Polycom, I have almost spent 2 years, During my period over here I have worked on lots of issues on an existing product(Web video conferencing application), I also i have integrated some of the important features in the product, Second i also have worked on more product to integrate web content share in desktop.</p>
+                        <div className="col-md-6 col-xs-12">
+                            <div className="card shadow-lg">
+                                <div className="card-body">
+                                    <h5 className="card-title">RPWS web video conferancing(Polycom)</h5>
+                                    <p className="card-text">As a software engieer at Polycom, I have almost spent 2 years, During my period over here I have worked on lots of issues on an existing product(Web video conferencing application), I also i have integrated some of the important features in the product, Second i also have worked on more product to integrate web content share in desktop.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="col-md-6 col-xs-12">
-                        <div className="card shadow-lg">
-                            <div className="card-body">
-                                <h5 className="card-title">Pholio Polycom</h5>
-                                <p className="card-text">
-                                I have played the role of front end developer in Phoilo Project, Portal is for validation of video endpoints, Main modules in this are OAuth Login, List Registered devices, Add/Edit device
-                                After registering the device with this portal user can join a meeting from that device
-                                </p>
+                        <div className="col-md-6 col-xs-12">
+                            <div className="card shadow-lg">
+                                <div className="card-body">
+                                    <h5 className="card-title">Pholio Polycom</h5>
+                                    <p className="card-text">
+                                    I have played the role of front end developer in Phoilo Project, Portal is for validation of video endpoints, Main modules in this are OAuth Login, List Registered devices, Add/Edit device
+                                    After registering the device with this portal user can join a meeting from that device
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="col-md-6 col-xs-12">
-                        <div className="card shadow-lg">
-                            <div className="card-body">
-                                <h5 className="card-title">Theminimall (Alpine Health)</h5>
-                                <p className="card-text">My career started as a web developer with alpine health, It's a E-Commerce portal for sellers and buyers
-                                Sellers can create their store and upload products of different range
-                                The main component on buyer side are search product, list products, add to cart, payment, Account/Order management
-                                CC Avenue payment gateway is integrated with this product</p>
+                        <div className="col-md-6 col-xs-12">
+                            <div className="card shadow-lg">
+                                <div className="card-body">
+                                    <h5 className="card-title">Theminimall (Alpine Health)</h5>
+                                    <p className="card-text">My career started as a web developer with alpine health, It's a E-Commerce portal for sellers and buyers
+                                    Sellers can create their store and upload products of different range
+                                    The main component on buyer side are search product, list products, add to cart, payment, Account/Order management
+                                    CC Avenue payment gateway is integrated with this product</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                   
+                    
                     </div>
                 </div>
             </div>
