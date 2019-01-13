@@ -49,6 +49,7 @@ export default () => {
         <Banner />
         <About />
         <Projects />
+        <hr className="large-hr" />
         <Contact />
       </div>
       <h1 hidden>

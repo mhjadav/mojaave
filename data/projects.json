@@ -6,6 +6,12 @@
         "link": "https://plivo.com"
     },
     {
+        "name":"Pavan Industries",
+        "description": "Today we are living in world of internet, Most of the people are connected to the internet by one or other way, so for any kind of business it's important to present online to increase customer base, For Pavan Industries, we have static site which is fast, simple, mobile friendly, we have used HTML/CSS/Javascript, Designed using Bootstrap.",
+        "image": "images/packingwood.png",
+        "link": "https://packingwood.in"
+    },
+    {
         "name":"Thairpysalonandspa.ca",
         "description": "Today we are living in world of internet, Most of the people are connected to the internet by one or other way, so for any kind of business it's important to present online to increase customer base, For Thairapy salon and spa, we have designed PWA(Progressive web application), which is fast, simple, mobile friendly and works offline, we have used React, Design is custom and Bootstrap, also we have used Latest web features like service worker.",
         "image": "images/thairpy.png",
@@ -18,29 +24,23 @@
         "link": "https://nxdigital.com.au"
     },
     {
-        "name":"Hamilton Wireless",
-        "description": "Today we are living in world of internet, Most of the people are connected to the internet by one or other way, so for any kind of business it's important to present online to increase customer base, For Hamilton Wireless, we have designed PWA(Progressive web application), which is fast, simple, mobile friendly and works offline, we have used GatsbyJS(React based tool to build to static/fast/PWA web applications), Designed using Bootstrap.",
-        "image": "images/hamilton.png",
-        "link": "https://hamiltonwireless.ca"
-    },
-    {
         "name":"Cleartrip Pvt Ltd.",
         "description": "This was my last job before I started working independently, I have spent around 1.5 years at Cleartrip, I really enjoyed my time at Cleartrip, made lots of life long friends, learned several latest technology like ReactJS and added some important features to their website, My job at Cleartrip is to handle hotels UI, some of the work I have done includes - Redo filters design, GST Integration, Hotel Shortlist, Optimize search page fast by prefetching data, Revamp details page, Pre-applied wallet balance.",
         "image": "images/cleartrip.png",
         "link": "https://cleartrip.com"
     },
     {
-        "name":"Pavan Industries",
-        "description": "Today we are living in world of internet, Most of the people are connected to the internet by one or other way, so for any kind of business it's important to present online to increase customer base, For Pavan Industries, we have static site which is fast, simple, mobile friendly, we have used HTML/CSS/Javascript, Designed using Bootstrap.",
-        "image": "images/packingwood.png",
-        "link": "https://packingwood.in"
+        "name":"Hamilton Wireless",
+        "description": "Today we are living in world of internet, Most of the people are connected to the internet by one or other way, so for any kind of business it's important to present online to increase customer base, For Hamilton Wireless, we have designed PWA(Progressive web application), which is fast, simple, mobile friendly and works offline, we have used GatsbyJS(React based tool to build to static/fast/PWA web applications), Designed using Bootstrap.",
+        "image": "images/hamilton.png",
+        "link": "https://hamiltonwireless.ca"
     },
     {
-        "name":"Servicenow projects",
+        "name":"Servicenow projects(Quodroid)",
         "description": "I started working on servicenow around 6 months back, i have done a ton of work in the last 6 months and leanred some of the hot features of servicenow, servicenow uses little outdated ui tech stack(AngularJS), I work with Quodroid Technologies, Bangalore based startup, they have multiple clients like Patientrails, CareAR, UPMX(Nokia), Siemens etc., My job is to help them design ui and integrate servicenow backed on UI(Using AngularJS), also setup servicenow client scripts, ui scripts."
     },
     {
-        "name":"RPWS web video conferancing(Polycom)",
+        "name":"RPWS - web based video conferancing(Polycom)",
         "description": "Polycom is my entry pass to world biggest id hub(Bangalore), I have spent around 2 years at Polycom, And get in touch with some of great people over there and learned lots of great thing from them professionally and personally, Polycom help me grow exponentially, My job is to handle UI for meeting portal and video portal, for video portal we were using AngularJS, meeting portal BackboneJS and backed using NodeJS, Use of these technologies helped me leaned fundamentals of UI Technology."
     },
     {

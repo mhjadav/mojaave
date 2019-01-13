@@ -47,7 +47,7 @@ body{
 }
 
 #projects .jumbotron{
-  background:	#28BB9F !important;
+  background:	linear-gradient(to top, white 0%, #f7f9fb 100%) !important;
 }
 #contact .jumbotron{
   background: white !important;
@@ -561,8 +561,8 @@ h2.card-text{
   background: #f9d30e;
 }
 .animate-border.border-green:after {
-  border-right-color: #28bba1;
-  border-left-color: #28bba1;
+  border-right-color: #f7f7f7;
+  border-left-color: #f7f7f7;
 }
 .animate-border:after {
   position: absolute;
@@ -632,4 +632,11 @@ h2.card-text{
 }
 .fa-skype:before {
   content: "\f17e";
+}
+#projects .container{
+  color: black;
+}
+.large-hr{
+  margin: 0 auto;
+  max-width: 1120px;
 }
