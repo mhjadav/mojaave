@@ -1,54 +1,50 @@
 [
     {
         "name":"Plivo.com",
-        "description": "Plivo project is to migrate current plivo website to new design and some more extra features, This project helped me add some more skill to my profile like Jekyll, Algolia Search, Font optimization, I helped them to improve performance by optimizing image, fonts, compress HTML, CSS, js and use preload for critical resources.",
+        "description": "The Plivo project is to migrate current Plivo website to new design, Plivo.com is built using Jekyll and cool Jekyll plugins like algolia search to search docs, compress layout to compress HTML etc, Jekyll uses markdown syntax to create docs and layout, To design a modern responsive website we have used Bootstrap and advance jquery plugins to add some flavor in UI.",
         "image": "images/plivo.png",
         "link": "https://plivo.com"
     },
     {
         "name":"Thairpysalonandspa.ca",
-        "description": "Thairpy salon and spa, Canada based salon and spa, i have design and developed portfolio website for them, this project is static data website with attractive design and 100% usable offline, It's PWA, i have added some ui features like, play video in background, add slider for team member, and add other services in menu.",
+        "description": "Today we are living in world of internet, Most of the people are connected to the internet by one or other way, so for any kind of business it's important to present online to increase customer base, For Thairapy salon and spa, we have designed PWA(Progressive web application), which is fast, simple, mobile friendly and works offline, we have used React, Design is custom and Bootstrap, also we have used Latest web features like service worker.",
         "image": "images/thairpy.png",
         "link": "https://thairpysalonandspa.com"
     },
     {
         "name":"Nx digital And Optimus DM",
-        "description": "Nx Digital is the first project design and developed after i have started working as full time freelancer, i have used gatsbyjs, this is out of the box PWA, also inegrated blog on this site, I have used gatsby plugin and wordpress json api to fetch blog details, also integrated netlify form for email notifications.",
+        "description": "Every business in today's worlds required to be online and if the business is related to the internet then it's a must. Nx Digital wants a stylish website, which is also fast,  also they want their blog to be integrated on a website. So first things come in mind is GatsbyJS and Bootstrap to Design, We have used GatsbyJS because website build using Gatsbyjs is super fast as it's static generate pages and PWA(100% offline) and allow to integrate any type of content.",
         "image": "images/nxdigital.png",
         "link": "https://nxdigital.com.au"
     },
     {
         "name":"Hamilton Wireless",
-        "description": "Hamilton wireless is canada based electronics items retail store, they want to go online, my main focus for this project is to build fast and mobile first website, which help their customer to find store online easily without wasting lots of data and time, first option i have was gatsbyjs, gatsbyjs is supeer cool tool to build super a fast web application.",
+        "description": "Today we are living in world of internet, Most of the people are connected to the internet by one or other way, so for any kind of business it's important to present online to increase customer base, For Hamilton Wireless, we have designed PWA(Progressive web application), which is fast, simple, mobile friendly and works offline, we have used GatsbyJS(React based tool to build to static/fast/PWA web applications), Designed using Bootstrap.",
         "image": "images/hamilton.png",
         "link": "https://hamiltonwireless.ca"
     },
     {
         "name":"Cleartrip Pvt Ltd.",
-        "description": "As a full stack developer, my job is to contribute to hotels project at Cleartrip, during my journey at Cleartrip I have done some project includes - revamp filters design, GST Integration, Hotel Shortlist, Load Search page fast by prefetching data, Revamp details page, Pre-applied wallet balance and some more.",
+        "description": "This was my last job before I started working independently, I have spent around 1.5 years at Cleartrip, I really enjoyed my time at Cleartrip, made lots of life long friends, learned several latest technology like ReactJS and added some important features to their website, My job at Cleartrip is to handle hotels UI, some of the work I have done includes - Redo filters design, GST Integration, Hotel Shortlist, Optimize search page fast by prefetching data, Revamp details page, Pre-applied wallet balance.",
         "image": "images/cleartrip.png",
         "link": "https://cleartrip.com"
     },
     {
         "name":"Pavan Industries",
-        "description": "It's a static portfolio website for a wooden box manufacturing company, This is one of the early days project i got, i have used simple html,css, javascript to build this website.",
+        "description": "Today we are living in world of internet, Most of the people are connected to the internet by one or other way, so for any kind of business it's important to present online to increase customer base, For Pavan Industries, we have static site which is fast, simple, mobile friendly, we have used HTML/CSS/Javascript, Designed using Bootstrap.",
         "image": "images/packingwood.png",
         "link": "https://packingwood.in"
     },
     {
         "name":"Servicenow projects",
-        "description": "I worked with multiple clients to build a web application using ServiceNow, my job is to build UI for them and also write some servicenow scripts depends on their requirement, maximum are to generate diffrent kind of reports, Client includes - Patientrails, Nokia, CareAR"
+        "description": "I started working on servicenow around 6 months back, i have done a ton of work in the last 6 months and leanred some of the hot features of servicenow, servicenow uses little outdated ui tech stack(AngularJS), I work with Quodroid Technologies, Bangalore based startup, they have multiple clients like Patientrails, CareAR, UPMX(Nokia), Siemens etc., My job is to help them design ui and integrate servicenow backed on UI(Using AngularJS), also setup servicenow client scripts, ui scripts."
     },
     {
         "name":"RPWS web video conferancing(Polycom)",
-        "description": "As a software engieer at Polycom, I have almost spent 2 years, During my period over here I have worked on lots of issues on an existing product(Web video conferencing application), I also i have integrated some of the important features in the product, Second i also have worked on more product to integrate web content share in desktop."
-    },
-    {
-        "name":"Pholio Polycom",
-        "description": "I have played the role of front end developer in Phoilo Project, Portal is for validation of video endpoints, Main modules in this are OAuth Login, List Registered devices, Add/Edit device, After registering the device with this portal user can join a meeting from that device"
+        "description": "Polycom is my entry pass to world biggest id hub(Bangalore), I have spent around 2 years at Polycom, And get in touch with some of great people over there and learned lots of great thing from them professionally and personally, Polycom help me grow exponentially, My job is to handle UI for meeting portal and video portal, for video portal we were using AngularJS, meeting portal BackboneJS and backed using NodeJS, Use of these technologies helped me leaned fundamentals of UI Technology."
     },
     {
         "name":"Theminimall (Alpine Health)",
-        "description": "My career started as a web developer with alpine health, It's a E-Commerce portal for sellers and buyers Sellers can create their store and upload products of different range The main component on buyer side are search product, list products, add to cart, payment, Account/Order management CC Avenue payment gateway is integrated with this product"
+        "description": "Theminimall.com introduced me to the world of software, my first job(15-April 2012), Started my career with Microsoft technology, we were using .Net at that time, also introduces me to javascript(my bread and butter), we have built an E-Commerce platform, Where seller can create an account, add items and the buyer can order an item from any seller of choice. also get to some of the important things we need to build an E-Commerce website."
     }
 ]
