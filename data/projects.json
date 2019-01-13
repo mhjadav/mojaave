@@ -7,19 +7,19 @@
     },
     {
         "name":"Pavan Industries",
-        "description": "Today we are living in world of internet, Most of the people are connected to the internet by one or other way, so for any kind of business it's important to present online to increase customer base, For Pavan Industries, we have static site which is fast, simple, mobile friendly, we have used HTML/CSS/Javascript, Designed using Bootstrap.",
+        "description": "Today we are living in world of internet, Most of the people are connected to the internet by one or other way, so for any kind of business it's important to present online to increase customer base, For Pavan Industries, we have designed static site which is fast, simple, mobile friendly, we have used HTML/CSS/Javascript, Designed using Bootstrap.",
         "image": "images/packingwood.png",
         "link": "https://packingwood.in"
     },
     {
         "name":"Thairpysalonandspa.ca",
-        "description": "Today we are living in world of internet, Most of the people are connected to the internet by one or other way, so for any kind of business it's important to present online to increase customer base, For Thairapy salon and spa, we have designed PWA(Progressive web application), which is fast, simple, mobile friendly and works offline, we have used React, Design is custom and Bootstrap, also we have used Latest web features like service worker.",
+        "description": "Today we are living in world of internet, Most of the people are connected to the internet by one or other way, so for any kind of business it's important to present online to increase customer base, For Thairapy salon and spa, we have designed PWA(Progressive web application), which is fast, simple, mobile friendly and works offline(Using service worker), we have used ReactJS, Designed using custom Bootstrap style.",
         "image": "images/thairpy.png",
         "link": "https://thairpysalonandspa.com"
     },
     {
         "name":"Nx digital And Optimus DM",
-        "description": "Every business in today's worlds required to be online and if the business is related to the internet then it's a must. Nx Digital wants a stylish website, which is also fast,  also they want their blog to be integrated on a website. So first things come in mind is GatsbyJS and Bootstrap to Design, We have used GatsbyJS because website build using Gatsbyjs is super fast as it's static generate pages and PWA(100% offline) and allow to integrate any type of content.",
+        "description": "Every business in today's worlds required to be online and if the business is related to the internet then it's a must. Nx Digital wants a stylish website, which is also fast,  also they want their blog to be integrated on a website. So first things come in mind is GatsbyJS to generaged static site and designed using Bootstrap, We have used GatsbyJS because website build using Gatsbyjs is super fast as it's static generate pages and PWA(100% offline) and also allow to integrate any type of content.",
         "image": "images/nxdigital.png",
         "link": "https://nxdigital.com.au"
     },
@@ -41,7 +41,7 @@
     },
     {
         "name":"RPWS - web based video conferancing(Polycom)",
-        "description": "Polycom is my entry pass to world biggest id hub(Bangalore), I have spent around 2 years at Polycom, And get in touch with some of great people over there and learned lots of great thing from them professionally and personally, Polycom help me grow exponentially, My job is to handle UI for meeting portal and video portal, for video portal we were using AngularJS, meeting portal BackboneJS and backed using NodeJS, Use of these technologies helped me leaned fundamentals of UI Technology."
+        "description": "Polycom is my entry pass to world biggest IT hub(Bangalore), I have spent around 2 years at Polycom, And get in touch with some of great people over there and learned lots of important things from them, which help me grow professionally and personally, Polycom help me grow exponentially, My job is to handle UI for meeting portal and video portal, for video portal we were using AngularJS, meeting portal BackboneJS and backed using NodeJS, Use of these technologies helped me leaned fundamentals of UI Technology."
     },
     {
         "name":"Theminimall (Alpine Health)",
