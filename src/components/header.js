@@ -9,11 +9,11 @@ function Header() {
                     <ul className="navbar-nav">
                     <li className="nav-item active">
                         <Link className="nav-link" to="/">
-                            Home 
+                            Hey! Let's Build Something Unique....
                             <span className="sr-only">(current)</span>
                         </Link>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <a className="nav-link" href="#about">About</a>
                     </li>
                     <li className="nav-item">
@@ -24,7 +24,7 @@ function Header() {
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#contact">Contact</a>
-                    </li>
+                    </li> */}
                     </ul>
                 </div>
             </nav>

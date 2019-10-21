@@ -38,6 +38,7 @@ body{
 #header .jumbotron{
   background: #ffc001 !important;
   margin-bottom: -130px;
+  height: 100vh;
 }
 
 #about .jumbotron{
