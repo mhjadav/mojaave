@@ -11,11 +11,11 @@ function About() {
                     </div>
                     <blockquote className="blockquote">
                         <h5 className="card-text text-black">
-                            Since last 7 years, I have been working as full stack developer with companies in india, I have designed and developed reliable, fast, engaging & responsive websites, 
+                            Since last 7 years, I have been working as ui developer with companies in india, I have designed and developed reliable, fast, engaging & responsive websites, 
                             with strong focus on performance & responsive design using the latest technologies. check out in <a href="#projects">Projects section</a>.
                         </h5>
                         <h5 className="card-text text-black">
-                            If you are looking for the full stack developer, 
+                            If you are looking for the ui developer, 
                             who will take care of all aspect of your project
                             then you are in the right place
                             <a href="#contact">Let's Talk</a>

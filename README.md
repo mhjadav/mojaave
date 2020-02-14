@@ -41,11 +41,11 @@ gatsby develop
 ```js
 module.exports = {
     name:"Mahipat Jadav",
-    siteTitle: "Mahipat Jadav,Full stack developer,Javascript,ReactJs,India", // Site title.
+    siteTitle: "Mahipat Jadav,UI developer,Javascript,ReactJs,India", // Site title.
     siteLogo: `${__dirname}/../src/static/images/mahipat.jpg`,
     siteUrl: "https://www.mojaave.com", // Domain of your website without pathPrefix.
-    siteKeyword:"mahipat Jadav, full stack developer, javascript developer, reactjs developer, Angular, nodejs developer, graphql, jquery, lodash, typescript, software engineer, web developer, front-end developer, responsive web design",
-    siteDescription: "Full stack developer, I have designed and developed fast and responsive web applications using Javascript, ReactJS, Redux, NodeJs, GraphQl, Bootstrap, Gatsby", // Website description used for RSS feeds/meta description tag.
+    siteKeyword:"mahipat Jadav, ui developer, javascript developer, reactjs developer, Angular, nodejs developer, graphql, jquery, lodash, typescript, software engineer, web developer, front-end developer, responsive web design",
+    siteDescription: "ui developer, I have designed and developed fast and responsive web applications using Javascript, ReactJS, Redux, NodeJs, GraphQl, Bootstrap, Gatsby", // Website description used for RSS feeds/meta description tag.
     googleAnalyticsID: "", // GA tracking ID.
     userName: "Mahipat Jadav", // Username to display in the author segment.
     userTwitter: "mhjadav", // Optionally renders "Follow Me" in the UserInfo segment.
@@ -54,7 +54,7 @@ module.exports = {
     favicon32:`../static/images/mahipat32.jpg`,
     favicon16:`../static/images/mahipat16.jpg`,
     ogImage: `../static/images/mahipat250.jpg`,
-    userDescription: "Full stack developer, I have designed and developed fast and responsive web applications using Javascript, ReactJS, Redux, NodeJs, GraphQl, Bootstrap, Gatsby", // Website description used for RSS feeds/meta description tag.
+    userDescription: "ui developer, I have designed and developed fast and responsive web applications using Javascript, ReactJS, Redux, NodeJs, GraphQl, Bootstrap, Gatsby", // Website description used for RSS feeds/meta description tag.
     userPhone:"+91-9898226919",
     userEmail:"mj@mojaave.com",
     copyright: "Copyright © 2018. @mahipat", // Copyright string for the footer of the website and RSS feed.

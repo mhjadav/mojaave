@@ -28,7 +28,7 @@ export default () => (
                                 </div>
                                 <div className="col-md-9 col-xs-12 about-text">
                                     <h1 className="card-text text-black">Hi, I'm Mahipat Jadav</h1>
-                                    <h4 className="card-text text-black">Full stack developer based in India</h4>
+                                    <h4 className="card-text text-black">ui developer based in India</h4>
                                     <hr/>
                                     <h4>
                                     <div>
