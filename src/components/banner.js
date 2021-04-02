@@ -37,6 +37,7 @@ export default () => (
                                         <a title="Email" href="mailto:mj@mojaave.com" className="card-link text-black"><i className="fa fa-envelope" /></a>
                                         <a title="Linkedin" href="https://www.linkedin.com/in/mhjadav/" className="card-link text-black"><i className="fa fa-linkedin" /></a>
                                         <a title="Skype" href="skype:mahipat2?chat" className="card-link text-black"><i className="fa fa-skype" /></a>
+                                        <a title="Mahipat Medium" href="https://medium.com/@mjadav" className="card-link text-black"><i className="fa fa-medium" /></a>
                                         <a title="Mahipat CV" href="https://cv.mojaave.com" className="card-link text-black">cv</a>
                                     </div>
 
