@@ -134,7 +134,7 @@ module.exports = {
     userLinks: [
       {
         label: "GitHub",
-        url: "https://github.com/mhjadav/mojaave",
+        url: "https://github.com/mhjadav",
         iconClassName: "fa fa-github"
       },
       {
@@ -149,8 +149,13 @@ module.exports = {
       },
       {
         label: "LinkedIn",
-        url: "https://www.linkedin.com/in/mahipat-jadav-987986158/",
+        url: "https://www.linkedin.com/in/mhjadav/",
         iconClassName: "fa fa-linkedin"
+      },
+        {
+        label: "Medium",
+        url: "https://medium.com/@mjadav",
+        iconClassName: "fa fa-medium"
       }
     ],
     copyright: "Copyright © 2018. @mahipat", // Copyright string for the footer of the website and RSS feed.
