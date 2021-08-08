@@ -1,6 +1,7 @@
 ---
 title: "E2E testing with Cypress & Bitbucket Pipelines"
 layout: "base.njk"
+description: "A look into my experience with setting up cypress, writing assertion, running test, fixing issues, fixing test config, setting up pipeline"
 ---
 
 # E2E testing with Cypress & Bitbucket Pipelines

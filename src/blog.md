@@ -1,6 +1,7 @@
 ---
 title: "Blog"
 layout: "base.njk"
+description: "Posts by Mahipat Jadav"
 ---
 
 ## Blog posts

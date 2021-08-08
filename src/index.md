@@ -1,6 +1,7 @@
 ---
 title: "I'm Mahipat Jadav"
 layout: "base.njk"
+description: "I work at Noon Academy, India. Previously i worked with Cleartrip, Polycom, Alpine health. I enjoy Bike riding and long walk at the beach."
 ---
 
 ## Hi, I'm Mahipat Jadav

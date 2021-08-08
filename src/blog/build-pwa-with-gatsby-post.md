@@ -1,6 +1,7 @@
 ---
 title: "Build PWA with Gatsby"
 layout: "base.njk"
+description: "PWA — trending word, Everyone wants to build PWA, But why?"
 ---
 
 # Build PWA with Gatsby

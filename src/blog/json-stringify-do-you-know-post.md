@@ -1,6 +1,7 @@
 ---
 title: "JSON.stringify — Do you know?"
 layout: "base.njk"
+description: "Last week i came across some of the wonderful uses of stringify method, i thought to share my learning here, If you are familiar with the"
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 title: "Build a blog with React, Wordpress using Gatsby"
 layout: "base.njk"
+description: "Earlier this month I was thinking of building a static but want a blog on it, so I search online and found a new guy in the market is trending (Gatsby)"
 ---
 
 # Build a blog with React, Wordpress using Gatsby
