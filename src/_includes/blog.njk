@@ -1,0 +1,10 @@
+---
+layout: base.njk
+---
+<main>
+    <h1>{{ title }}</h1>
+    <span><b>{{ date.toDateString() }}</b></span>
+    |
+    <span><b>{{ author }}</b></span>
+    {{ content | safe }}
+</main>

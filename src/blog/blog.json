@@ -1,4 +1,4 @@
 {
-    "layout": "base.njk",
+    "layout": "blog.njk",
     "tags": "posts"
 }

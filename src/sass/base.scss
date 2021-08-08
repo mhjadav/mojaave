@@ -75,6 +75,7 @@ li {
   }
 }
 
+
 a,
 a:visited {
   color: blueviolet;
@@ -94,26 +95,15 @@ html {
   font-size: 12px;
 }
 
-@media screen and (min-width: 32rem) and (max-width: 48rem) {
-  html {
-    font-size: 15px;
-  }
-}
-
-@media screen and (min-width: 48rem) {
-  html {
-    font-size: 16px;
-  }
-}
-
 body {
   line-height: 1.85;
 }
 
 p,
 .retro-p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-bottom: 1.3rem;
+  line-height: 1.8;
 }
 
 h1,
@@ -208,4 +198,52 @@ pre {
 blockquote {
   border-left: 3px solid blueviolet;
   padding-left: 1rem;
+}
+
+
+@media screen and (min-width: 32rem) and (max-width: 48rem) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 48rem) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    margin-top: 0;
+  }
+  h1,
+  .retro-h1 {
+    font-size: 2.5rem;
+  }
+
+  h2,
+  .retro-h2 {
+    font-size: 2rem;
+  }
+
+  h3,
+  .retro-h3 {
+    font-size: 1rem;
+  }
+
+  h4,
+  .retro-h4 {
+    font-size: 1rem;
+  }
+
+  h5,
+  .retro-h5 {
+    font-size: 1rem;
+  }
+
+  h6,
+  .retro-h6 {
+    font-size: 0.5rem;
+  }
 }

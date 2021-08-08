@@ -1,13 +1,9 @@
 ---
 title: "JSON.stringify — Do you know?"
-layout: "base.njk"
 description: "Last week i came across some of the wonderful uses of stringify method, i thought to share my learning here, If you are familiar with the"
+author: "Mahipat Jadav"
+date: 2020-06-28
 ---
-
-
-<article>
-
-# JSON.stringify — Do you know?
 
 Last week i came across some of the wonderful uses of stringify method, i thought to share my learning here, If you are familiar with the javascript then you must have come across this method in at least one situation, so do you know how many different ways you can use this method, let’s explore some of the best uses of this method. yo, let’s dive in :) 1\. Convert javascript object or value to JSON string, Ok but what do you mean by that, let’s take an example -
 
@@ -101,4 +97,3 @@ Thanks
 </div>
 
 Published on [Medium](https://medium.com/noon-academy/e2e-testing-with-cypress-bitbucket-pipelines-4ae19aca4d32)
-</article>
